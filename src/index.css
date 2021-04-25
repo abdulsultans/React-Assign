@@ -1,5 +1,5 @@
 body {
-  background-image: url(./bkg.jpg);
+  background-image: url(./images/darkbkg.jpg);
   background-position: center;
   background-size: cover;
   color: white;
@@ -33,7 +33,7 @@ nav ul li {
   color: #fff;
 }
 
-nav ul .nav-item{
+nav ul .nav-item {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -56,7 +56,7 @@ header .hero {
   margin: 10px;
 }
 
-.contact {
+.contact, h3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,8 +66,6 @@ header .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  background-color: #002651;
 }
 
 form {
@@ -79,32 +77,33 @@ form {
 }
 
 form button {
-  /*background-color: #775ada;
+  background-color: #331d7e;
   color: white;
-  font-size: 26px;
-  width: fit-content;*/
-  padding: 15px;
+  width: fit-content;
+  padding: 5px;
   font-weight: bold;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   font-size: 15px;
-  margin-bottom: 15px;
-  background-color: #775ada;
+  margin: 5px;
+  text-align: center;
 }
 
 form input {
-  height: 40px;
-  margin: 5px;
+  height: 15px;
+  margin: 3px;
   padding: 3px 7px;
-  font-size: 17px;
+  font-size: 15px;
+  outline: none;
 }
 
-form #form-text p {
-  font-size: 20px;
+#form-text p {
+  font-size: 14px;
   font-weight: 700;
   font-style: italic;
   display: flex;
   justify-content: center;
+  color: #331d7e;
 }
 
 section h3 {
@@ -113,6 +112,7 @@ section h3 {
   width: 200px;
   height: auto;
   align-items: center;
+  border: 2px solid #331d7e;
 }
 
 section h2 {
@@ -191,7 +191,37 @@ aside {
   justify-content: center;
 }
 
-#card {
-  height: 350px;
+#cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%
+}
+
+.cards {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(2) 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards img {
+  margin-top: 20px;
+  display: grid;
+  height: 300px;
   width: 250px;
+  border: 2px solid slateblue;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.cards h3 {
+  text-align: center;
+  border-radius: 12px 0 15px 11px;
+  background-color: #775ada;
+  color: white;
+  height: 25px;
+  width: auto;
+  margin-top: 0px;
 }

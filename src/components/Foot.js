@@ -1,4 +1,4 @@
-import Logo from './celebs.png';
+import Contact from './Contact';
 
 const Foot = () => {
   return (
@@ -38,9 +38,8 @@ const Foot = () => {
         </ul >
       </div >
       
-      <div className="fo-title" id="foot-image">
-      <h3>Absuta News</h3>
-        <img src={Logo} style={{height: "150px", width: "150px"}} alt="LOGO" />
+      <div>
+      <Contact />
       </div>
     </div>
   );

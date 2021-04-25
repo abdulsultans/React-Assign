@@ -1,0 +1,5 @@
+{
+    "jshint.enable": false,
+    "cSpell.allowCompoundWords": true,
+    "cSpell.diagnosticLevel": "Hint"
+}
